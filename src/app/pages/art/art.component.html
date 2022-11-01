@@ -1,0 +1,32 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container-fluid page">
+    <div class="gallery">
+        <mat-tab-group mat-align-tabs="center">
+            <!-- Gallery Tab -->
+            <mat-tab label="Gallery">
+                <div class="masonry">
+                    <div class="imgItem" *ngFor="let imgs of images">
+                        <img src="{{ imgs.img }}" alt="">
+                    </div>
+                </div>
+            </mat-tab>
+            <!-- Graphic Tab -->
+            <mat-tab label="Graphic">
+                <div class="masonry">
+                    <div class="imgItem" *ngFor="let imgs of images">
+                        <img src="{{ imgs.img }}" alt="">
+                    </div>
+                </div>
+            </mat-tab>
+            <!-- Photos Tab -->
+            <mat-tab label="Photos">
+                <div class="masonry">
+                    <div class="imgItem" *ngFor="let imgs of images">
+                        <img src="{{ imgs.img }}" alt="">
+                    </div>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+</div>

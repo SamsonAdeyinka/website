@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap");
+$black: #111111;
+$white: rgb(255, 255, 255);
+$orange: orangered;
+$off-black: #1A1A1A;
+
+* {
+    color: $white;    
+}
+
+.contact--page {
+    height: 100vh;
+}
+.contact--form {
+    height: 500px;
+    width: 500px;
+}

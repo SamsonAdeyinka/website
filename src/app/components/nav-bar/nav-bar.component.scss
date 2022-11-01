@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // background-color: #28282B;
+}
+nav {
+   position: relative;
+   top: 30px;
+}
+
+li, a {
+    font-family: 'Expletus Sans', 'cursive';
+    font-size: 12px;
+    font-weight: 700;
+    color: honeydew;
+    
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 15px 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+li a {
+    transition: all 0.3s ease 0s;
+}
+li a:hover {
+    color: orangered;
+}
+
+img {
+    height: 50px;
+}
+
