@@ -1,112 +1,121 @@
-<!-- <app-nav-bar></app-nav-bar> -->
+<div class="home">
 
-<!-- Introduction -->
-<section class="container-fluid">
-  <div class="h-100 d-flex align-content-center justify-content-center">
-    <div class="content--one row align-self-center">
-      <div class="welcome--content col">
-        <h1 class="header-1">Konichiwa.</h1>
-        <h2>Consectetur duis in irure ad in eu cillum et enim irure sit minim qui. Fugiat proident proident
-          sint esse qui officia ipsum exercitation voluptate ea et tempor Lorem reprehenderit. Consectetur
-          adipisicing esse veniam laboris aliqua in voluptate est nostrud. Duis officia laborum dolore velit.
-        </h2>
-      </div>
-      <div class="col d-flex justify-content-center">
-        <img #imageOne src="{{ images[0] }}" alt="">
+  <div class="navigation">
+    <app-nav-bar></app-nav-bar>
+  </div>
+
+  <!-- Introduction -->
+  <section class="container-fluid">
+    <div class="h-100 d-flex align-content-center justify-content-center">
+      <div class="content--one row align-self-center">
+        <div class="welcome--content col">
+          <h1 class="header-1">Konichiwa.</h1>
+          <h2>Consectetur duis in irure ad in eu cillum et enim irure sit minim qui. Fugiat proident proident
+            sint esse qui officia ipsum exercitation voluptate ea et tempor Lorem reprehenderit. Consectetur
+            adipisicing esse veniam laboris aliqua in voluptate est nostrud. Duis officia laborum dolore velit.
+          </h2>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img #imageOne src="{{ images[0] }}" alt="">
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Blog -->
-<section class="blogger">
+  <!-- Blog -->
+  <section class="blogger">
     <div class="container h-100 d-flex align-items-center">
       <app-blog-card [showImage]="true"></app-blog-card>
     </div>
-</section>
+  </section>
 
 
-<!-- Gallary/Art -->
-<section>
-  <div class="gallery--slides row align-items-center justify-content-center">
-    <div class="col-md-12">
-      <owl-carousel-o [options]="customOptions">
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img src="../../../assets/images/aaron-lau-EOnlL3L3IgQ-unsplash.jpg" alt="">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img src="../../../assets/images/alex-wong-l5Tzv1alcps-unsplash.jpg" alt="">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img src="../../../assets/images/andre-benz-7V8uyapbxLw-unsplash.jpg" alt="">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img src="../../../assets/images/andre-benz-qz7KZgeDmjU-unsplash.jpg" alt="">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img src="../../../assets/images/calin-stan-Mv15X2n8JVE-unsplash.jpg" alt="">
-          </div>
-        </ng-template>
-      </owl-carousel-o>
-    </div>
-  </div>
-</section>
-
-<!-- Video/YouTube?? -->
-<!-- <section class="container-fluid"></section> -->
-
-<!-- Music/Playlist -->
-<section class="music--container container-fluid">
-  <div class="row h-100">
-    <div class="col-7 d-flex align-items-center">
-      <div class="d-flex flex-column mx-5">
-        <h1 class="mb-3">playlists.</h1>
-        <p>Et id cillum laborum nostrud elit enim. Anim reprehenderit duis do minim tempor minim adipisicing. Irure
-          voluptate commodo veniam exercitation. Et id cillum laborum nostrud elit enim. Anim reprehenderit duis do
-          minim tempor minim adipisicing. Irure voluptate commodo veniam exercitation.</p>
+  <!-- Gallary/Art -->
+  <section>
+    <div class="gallery--slides row align-items-center justify-content-center">
+      <div class="col-md-12">
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide>
+            <div class="slide">
+              <img src="../../../assets/images/aaron-lau-EOnlL3L3IgQ-unsplash.jpg" alt="">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="slide">
+              <img src="../../../assets/images/alex-wong-l5Tzv1alcps-unsplash.jpg" alt="">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="slide">
+              <img src="../../../assets/images/andre-benz-7V8uyapbxLw-unsplash.jpg" alt="">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="slide">
+              <img src="../../../assets/images/andre-benz-qz7KZgeDmjU-unsplash.jpg" alt="">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="slide">
+              <img src="../../../assets/images/calin-stan-Mv15X2n8JVE-unsplash.jpg" alt="">
+            </div>
+          </ng-template>
+        </owl-carousel-o>
       </div>
     </div>
-    <div class="col-5 d-flex justify-content-center align-items-center">
-      <div class="playlist-img">
-        <img src="../../../assets/images/playlist-img.png" alt="">
+  </section>
+
+  <!-- Video/YouTube?? -->
+  <!-- <section class="container-fluid"></section> -->
+
+  <!-- Music/Playlist -->
+  <section class="music--container container-fluid">
+    <div class="row h-100">
+      <div class="col-7 d-flex align-items-center">
+        <div class="d-flex flex-column mx-5">
+          <h1 class="mb-3">playlists.</h1>
+          <p>Et id cillum laborum nostrud elit enim. Anim reprehenderit duis do minim tempor minim adipisicing. Irure
+            voluptate commodo veniam exercitation. Et id cillum laborum nostrud elit enim. Anim reprehenderit duis do
+            minim tempor minim adipisicing. Irure voluptate commodo veniam exercitation.</p>
+        </div>
+      </div>
+      <div class="col-5 d-flex justify-content-center align-items-center">
+        <div class="playlist-img">
+          <img src="../../../assets/images/playlist-img.png" alt="">
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Contact Me -->
-<section class="contact--form">
-  <div class="form-container d-flex justify-content-center align-items-center">
-    <form>
-      <div class="form-row">
-        <div class="form-group">
-          <input class="form-control" type="text" placeholder="name." required>
+  <!-- Contact Me -->
+  <section class="contact--form">
+    <div class="form-container d-flex justify-content-center align-items-center">
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="name." required>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="email." required>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="subject." required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="message." required></textarea>
+          </div>
         </div>
-        <div class="form-group">
-          <input class="form-control" type="text" placeholder="email." required>
+        <div class="send-btn">
+          <a href="#">send message.</a>
         </div>
-        <div class="form-group">
-          <input class="form-control" type="text" placeholder="subject." required>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="message." required></textarea>
-        </div>
-      </div>
-      <div class="send-btn">
-        <a href="#">send message.</a>
-      </div>
-    </form>
-  </div>
-</section>
+      </form>
+    </div>
+  </section>
+
+
+</div>
+
+
 
 <!-- <app-footer></app-footer> -->
 

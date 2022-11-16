@@ -8,11 +8,26 @@ $off-black: #1A1A1A;
 
 * {
     color: $white;
+    // padding: 0;
+    // margin: 0;
+}
+
+.home {
+    // background-image: url("../../../assets/images/v2-transparent.png");
+    // background-repeat: no-repeat;
+    // background-size: 150px 300px;
+    // background-position: center; 
+    background-color: $off-black
 }
 
 section {
     height: 100vh;
-    // position: relative;
+}
+
+.navigation {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 .content--one {
@@ -37,7 +52,7 @@ section {
     h2 {
         position: absolute;
         bottom: 150px;
-        margin: 0px 0px 0px 100px;
+        margin: 0 0 0 100px;
     }
 
     img {
@@ -67,14 +82,7 @@ section {
 // Maybe you should try use bootstrap for the <div> boxes general layout and then use css to actually move the content (with postion) in div. (e.g the bottom, right and position) 
 
 
-.bk-img {
-    background-image: url("../../../assets/images/simon-berger-boyXZfqpwpU-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 90%;
-    height: 90%;
-    position: relative;
-}
+
 .button {
     position: absolute;
     margin: 10px; //remove when placing button position
@@ -110,7 +118,7 @@ section {
 
 .contact--form {
 
-    background-color: $off-black;
+    // background-color: $off-black;
 
     h1 {
         color: #111111;
@@ -118,6 +126,10 @@ section {
 
     form {
         width: 800px;
+
+        input {
+            padding: 10px;
+        }
     }
     .form-group {
        padding-bottom: 10px;
@@ -132,7 +144,8 @@ section {
 }
 
 .music--container {
-    height: 70%;
+    height: 70vh;
+    // width: 100%;
     background-color: $orange;
 
     .playlist-img {
