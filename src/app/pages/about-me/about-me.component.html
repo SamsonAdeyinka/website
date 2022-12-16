@@ -1,1 +1,31 @@
-<p>about-me works!</p>
+<div class="heading">
+    <div class="h-100">
+        <div class="row h-100">
+            <div class="col align-self-center">
+                <p>Consequat velit do culpa duis ea proident ipsum fugiat sunt. Eiusmod pariatur excepteur sunt amet
+                    ullamco cillum veniam culpa do enim. Consectetur consectetur eu cupidatat veniam. Commodo fugiat
+                    esse et qui nisi occaecat magna irure anim tempor aute cillum qui commodo.</p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Timeline -->
+<div class="timeline-container">
+    <p-timeline [value]="gfg" align="right">
+        <ng-template pTemplate="opposite" let-event>
+            {{event.tutorialName}}
+        </ng-template>
+    </p-timeline>
+</div>
+
+<!-- Download CV -->
+<div class="download-cv">
+    <div class="row">
+        <div class="col text-center">
+            <button>download cv.</button>
+        </div>
+    </div>
+    <!-- <button class="">download cv.</button> -->
+</div>

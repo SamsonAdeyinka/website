@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { ArtComponent } from './pages/art/art.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
@@ -15,6 +16,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
+import { TimelineModule } from 'primeng/timeline';
+import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
+import { PrimeIcons } from 'primeng/api';
 
 
 
@@ -25,6 +30,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     BlogComponent,
     ContactMeComponent,
     HomeComponent,
+    AboutMeComponent,
     BlogCardComponent,
     NavBarComponent,
     FooterComponent
@@ -34,7 +40,10 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    CarouselModule
+    CarouselModule,
+    TimelineModule,
+    CardModule,
+    ButtonModule,
     
   ],
   providers: [],
