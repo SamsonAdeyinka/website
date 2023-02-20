@@ -1,31 +1,80 @@
-<div class="heading">
-    <div class="h-100">
-        <div class="row h-100">
-            <div class="col align-self-center">
-                <p>Consequat velit do culpa duis ea proident ipsum fugiat sunt. Eiusmod pariatur excepteur sunt amet
-                    ullamco cillum veniam culpa do enim. Consectetur consectetur eu cupidatat veniam. Commodo fugiat
-                    esse et qui nisi occaecat magna irure anim tempor aute cillum qui commodo.</p>
-            </div>
-            <div class="col"></div>
-        </div>
-    </div>
-</div>
-
-<!-- Timeline -->
-<div class="timeline-container">
-    <p-timeline [value]="gfg" align="right">
-        <ng-template pTemplate="opposite" let-event>
-            {{event.tutorialName}}
-        </ng-template>
-    </p-timeline>
-</div>
-
-<!-- Download CV -->
-<div class="download-cv">
+<app-nav-bar></app-nav-bar>
+<div class="main-body vh-100">
     <div class="row">
-        <div class="col text-center">
-            <button>download cv.</button>
+        <div class="col-3">
+            <div class="left-panel shadow">
+                <div class="left-panel-heading container">
+                    <img src="../../..//src/assets/images/beta-VI-wallpaper.jpg" alt="">
+                    <div class="text-center">
+                        <h1 class="my-3">Samson Adeyinka</h1>
+                        <h3>Software/Front-End Developer</h3>
+                        <h3>UX/UI Designer</h3>
+                    </div>
+                </div>
+                <div class="left-panel-body container">
+                    <div class="divider">-------------------------------------------------------</div>                    
+                    <div class="skill-summary">
+                        <h1>Skill Summary</h1>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                            <li>Leadership</li>
+                            <li>Attention to Detail</li>
+                            <li>Teamwork</li>
+                            <li>Creativity</li>
+                        </ul>
+                    </div>
+                    <div class="divider">-------------------------------------------------------</div>
+                    <div class="technical-skills">
+                        <h1>Techncial Skills</h1>                            
+                        <h2>Language & Frameworks</h2>
+                        <p>Python, Java, HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Angulars</p>
+                        <h2>Development Tools</h2>
+                        <p>Google Cloud Platform, Amazon Web Services, GIT, Docker, Jenkins, XAMPP, Visual Studio, Eclipse, Slack</p>
+                        <h2>Operating Systems</h2>
+                        <p>Microsoft Windows, Ubuntu, MacOS, ChromeOS, Android, iOS</p>
+                        <h2>Software</h2>
+                        <p>Installation, Wordpress, Adobe Illustrator, Adobe Photoshop, Microsoft Office, Video Editing</p>
+                        <h2>Hardware</h2>
+                        <p>Maintenance, Troubleshooting, Backup Management, Driver Updates</p>
+                    </div>
+                    <div class="divider">-------------------------------------------------------</div>
+                    <div class="certification">
+                        <h1>Certification</h1>
+                        <p>AWS Certified Cloud Practitioner (Pending)</p>
+                    </div>
+                    <div class="divider">-------------------------------------------------------</div>
+                    <div class="proud-moments">
+                        <h1>Most Proud Of...</h1>
+                        <p>Developing a social media website as a Final Year Project</p>
+                        <p>Receiving commendations for excellent reviews from customers</p>
+                        <p>Teaching myself to Skateboard</p>
+                    </div>
+                    <div class="divider">-------------------------------------------------------</div>
+                </div>
+                <!-- Download CV -->
+                <div class="download-cv">
+                    <button>download cv.</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="right-panel">
+                <div class="container">
+                    <div class="personal-profile">
+                        <h1>personal profile</h1>
+                        <p>I am a diligent Computer Science graduate with strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients. I have a good knowledge of computing and design, and an eagerness to be challenged in order to grow and improve my IT skills.</p>
+                    </div>
+                    <div class="experience">
+                        <h2>DevOps Consultant Trainee</h2>
+                        <p>12 weeks at the QA Academy learning the core principles of the DevOps practice and Cloud based systems.
+                            Building and managing a distributed version control system for code collaboration using git
+                            Linking Jenkins to git repositories and automating the build and deployment of processes
+                            Continuous Integration and Deployment whereby automating the testing and packaging of code changes made in a git repository using Jenkins
+                            Deploying containers and orchestrating the deployment of containers on nodes using Docker and Docker-compose</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- <button class="">download cv.</button> -->
 </div>

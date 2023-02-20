@@ -13,8 +13,89 @@ $off-black: #1A1A1A;
     width: 100%;
 }
 
+.main-body {
+    background-color: #1A1A1A;
+    padding: 0 100px 0 100px;
+}
+
+.left-panel {
+    background-color: gray;
+    padding-top: 20px;
+
+    .left-panel-heading {
+        background-color: #1A1A1A;
+        padding: 30px;
+        height: 300px;
+
+        img {
+            border-radius: 50%;
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 10px;
+            margin: 5px 0 5px 0;
+        }
+    }
+}
+
+.left-panel-body {
+
+    .skill-summary {
+        font-size: 12px;
+        // margin: 10px;
+
+        h1 {
+            font-size: 15px;
+        }
+    }
+
+    .technical-skills {
+        h1 {
+            font-size: 15px;
+        }
+        h2 {
+            font-size: 12px;
+            padding: 10px 0 0px 0;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .certification {
+        h1 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+    .proud-moments {
+        h1 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+
 
 // CSS 
 .download-cv {
     width: 100%;
+
+
+    button {
+        display: block;
+        margin: auto;
+    }
 }

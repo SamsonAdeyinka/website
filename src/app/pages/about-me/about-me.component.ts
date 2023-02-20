@@ -9,22 +9,30 @@ export class AboutMeComponent implements OnInit {
 
   constructor() { }
 
-  gfg: any[] = [];
+  employ: any[] = [];
 
   ngOnInit() {
 
-    this.gfg = [
+    this.employ = [
       {
-        tutorialName: 'DSA Self Paced',
+        year: '2021',
+        company: 'Transperfect',
+        role: 'Localization Engineer'
       },
       {
-        tutorialName: 'System Design',
+        year: '2019',
+        company: 'QA Consulting',
+        role: 'Localization Engineer'
       },
       {
-        tutorialName: 'C++ STL',
+        year: '2018',
+        company: 'Tearfund',
+        role: 'Localization Engineer'
       },
       {
-        tutorialName: 'Competitive Programming',
+        year: '2018',
+        company: 'RPPtv.com',
+        role: 'Localization Engineer'
       },
     ];
   }
