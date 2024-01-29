@@ -19,17 +19,17 @@ $off-black: #1A1A1A;
 }
 
 .left-panel {
-    background-color: gray;
+    background-color: #345384;
     padding-top: 20px;
 
     .left-panel-heading {
-        background-color: #1A1A1A;
+        background-color: #345384;
         padding: 30px;
-        height: 300px;
+        // height: 300px;
 
         img {
             border-radius: 50%;
-            height: 100px;
+            height: 200px;
             display: block;
             margin: auto;
         }
